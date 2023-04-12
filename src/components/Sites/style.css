@@ -1,0 +1,60 @@
+.containerSites {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #B5A798;
+}
+
+.portfolioSites {
+  background-image: url(https://static.wixstatic.com/media/17a3e4_6419a9b52e7e4c6480ef1c5f473d9127~mv2.jpg/v1/fill/w_1090,h_668,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/17a3e4_6419a9b52e7e4c6480ef1c5f473d9127~mv2.jpg);
+  width: 1200px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.textSites {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 8rem;
+  margin-left: 12rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.textSites span {
+  color: white;
+  font-weight: 100;
+}
+
+.textSites h4 {
+  color: white;
+  font-size: 20px;
+}
+
+.textSpanSites {
+  width: 150px;
+  height: 35px;
+  border-bottom: 1px solid white;
+}
+
+.portfolioSites button {
+  width: 150px;
+  height: 40px;
+  margin-top: 23.5rem;
+  margin-left: 12rem;
+  background: transparent;
+  border: 1px solid white;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.portfolioSites button:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}

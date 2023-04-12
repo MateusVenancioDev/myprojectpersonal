@@ -1,0 +1,52 @@
+.containerStands {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #B5A798;
+}
+
+.frameText {
+  margin-top: 5rem;
+  height: 650px;
+  width: 52%;
+  background-color: #2F2E2E;
+  margin-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  gap: 2rem;
+}
+
+.frameText h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.frameText p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.imageStands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageStands span {
+  margin-right: 25rem;
+  margin-bottom: 1.2  rem;
+  font-size: 1.3rem;
+}
+
+.imageStands img {
+  position: relative;
+  z-index: 2;
+  right: 12.4rem;
+  top: 2.2rem;
+}
